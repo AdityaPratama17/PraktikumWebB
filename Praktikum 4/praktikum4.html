@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pertemuan 4</title>
+	<meta charset="utf-8" />
+    <meta name="keywords" content="praktikum 4, Form, Meta Element" />
+</head>
+<body>	
+<form action="form.html" method="POST">
+<fieldset>
+	<legend><h2>BIODATA DIRI</h2></legend>
+	<p>
+		<label for="Nama">Nama :</label>
+		<input type="text" name="Nama" id="Nama" required>
+	</p>
+	<p>
+		<label for="Tempat lahir">Tempat lahir :</label>
+		<input type="text" name="Tempat lahir" id="Tempat lahir" required>
+	</p>
+	<p>
+		<label for="Tanggal lahir">Tanggal lahir :</label>
+		<input type="date" name="Tanggal lahir" id="Tanggal lahir" required>
+	</p>
+	<p>
+		Jenis Kelamin : <br>
+		<input type="radio" name="kelamin" id="Laki-laki" required>
+		<label for="Laki-laki">Laki-laki</label><br>
+		<input type="radio" name="kelamin" id="Perempuan" required>
+		<label for="Perempuan">Perempuan</label>
+	</p>
+	<p>
+		<label for="pendidikanTerakhir">Pendidikan Terakhir:</label>
+		<select name="pendidikanTerakhir" id="pendidikanTerakhir">
+		  <option value="SD">SD</option>
+		  <option value="SMP">SMP</option>
+		  <option value="SMA">SMA</option>
+		  <option value="S1">S1</option>
+		  <option value="S2">S2</option>
+		  <option value="S3">S3</option>
+		</select>
+	</p>
+	<p>
+		<label for="pendidikanIni">Pendidikan Saat Ini:</label>
+		<select name="pendidikanIni" id="pendidikanIni">
+		  <option value="SD">SD</option>
+		  <option value="SMP">SMP</option>
+		  <option value="SMA">SMA</option>
+		  <option value="S1">S1</option>
+		  <option value="S2">S2</option>
+		  <option value="S3">S3</option>
+		</select>
+	</p>
+	<p>
+		<label for="No Telp/HP">No Telp/HP :</label>
+		<input type="number" name="No Telp/HP" id="No Telp/HP" required>
+	</p>
+	<p>
+		<label>Alamat :</label><br>
+  		<textarea name="textarea" required></textarea>
+	</p>
+  		<input type="submit" value="Submit">
+</fieldset>
+</form>
+
+</body>
+</html>
